@@ -3,7 +3,7 @@
 #include<unistd.h>
 #include<stdlib.h>
 #include<sys/types.h>
-#include <time.h>
+#include<time.h>
 
 int nr=0; 
 pid_t pa; 
