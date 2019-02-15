@@ -10,7 +10,7 @@ pid_t pa;
 sigset_t ms;
 
 void h1(int n){
-	signal(n, h1);
+  signal(n, h1);
 }
 void h2(int n) {
   printf("Am trimis: %d\n", nr);
